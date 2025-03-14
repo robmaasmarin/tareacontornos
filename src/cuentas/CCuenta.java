@@ -2,7 +2,8 @@ package cuentas;
 
 public class CCuenta {
     int prueba2;
-    String nombre;
+    String nombre ="";
+    String apellido ="";
 
     /**
      * @return the nombre

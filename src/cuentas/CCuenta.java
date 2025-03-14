@@ -1,6 +1,7 @@
 package cuentas;
 
 public class CCuenta {
+    int prueba2;
 
     /**
      * @return the nombre

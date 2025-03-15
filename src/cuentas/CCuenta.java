@@ -101,9 +101,10 @@ public class CCuenta {
     }
     
      /**
-    * Este método representa la cantidad que retiramos de la cuenta
+    * Este método representa la cantidad que retiramos de la cuenta: toma como parámetro la cantidad a retirar
     * @author Roberto
     * @version 1.0
+    * 
      
      */
 

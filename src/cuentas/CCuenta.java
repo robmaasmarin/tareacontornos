@@ -1,5 +1,9 @@
 package cuentas;
-
+/** 
+ * Esta clase representa una cuenta bancaria con atributos y métodos para gestionar el saldo, realizar ingresos y retiradas de dinero
+ 
+ 
+ */
 public class CCuenta {
     int prueba2;
     String nombre1 ="";
@@ -82,6 +86,12 @@ public class CCuenta {
     {
         return getSaldo();
     }
+    /**
+    * Este método representa la cantidad que ingresamos en cuenta
+    * @author Roberto
+    * @version 1.0
+     
+     */
 
     public void ingresar(double cantidad) throws Exception
     {
@@ -89,6 +99,13 @@ public class CCuenta {
             throw new Exception("No se puede ingresar una cantidad negativa");
         setSaldo(getSaldo() + cantidad);
     }
+    
+     /**
+    * Este método representa la cantidad que retiramos de la cuenta
+    * @author Roberto
+    * @version 1.0
+     
+     */
 
     public void retirar(double cantidad) throws Exception
     {
